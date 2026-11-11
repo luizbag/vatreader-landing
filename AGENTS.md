@@ -4,6 +4,7 @@
 - Install: `pnpm install` (pnpm 10.15.1; use `corepack pnpm` if pnpm is not on PATH)
 - Dev: `pnpm dev` (Turbopack, http://localhost:3000)
 - Build: `pnpm build` (compiles, type-checks, prerenders static pages)
+- Migrate: `pnpm migrate` (runs `scripts/migrate.mjs` against `POSTGRES_URL`)
 - Start (prod): `pnpm start`
 - Typecheck: `npx tsc --noEmit` (no script exists)
 - Lint: `pnpm lint` runs `next lint`, but no ESLint config is tracked, so it prompts interactively. Do not rely on it in CI or non-interactive runs.
@@ -17,7 +18,7 @@
 - Next.js 15 (App Router), React 19.
 - Route groups: `app/(default)` (marketing pages + Header/Footer/AOS) and `app/(auth)` (signin/signup/reset-password).
 - Shared UI in `components/` and `components/ui/`. Import alias `@/*` maps to repo root.
-- API route: `app/api/hello/route.ts`.
+- API route: `app/api/waitlist/route.ts` (POST, validates email, stores in Vercel Postgres).
 - Root layout `app/layout.tsx` loads `app/css/style.css` and the Inter font.
 
 ## Styling
@@ -28,3 +29,4 @@
 - `app/(default)/layout.tsx` is a client component that initializes AOS; keep `"use client"`.
 - No test suite or test runner is configured; `pnpm build` is the main verification.
 - `next lint` is deprecated (removed in Next.js 16); the migration has not been done.
+- Waitlist API requires `POSTGRES_URL` (Vercel Postgres); see `.env.example`.
