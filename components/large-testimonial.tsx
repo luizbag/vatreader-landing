@@ -30,7 +30,7 @@ export default function LargeTestimonial() {
               />
             </div>
             <p className="text-2xl font-bold text-gray-900">
-              “VAT Reader saved me hours every month. I just drop in my
+              “ParseVAT saved me hours every month. I just drop in my
               invoices and it pulls out the VAT —{" "}
               <em className="italic text-gray-500">no more manual entry</em>,
               no more mistakes.”

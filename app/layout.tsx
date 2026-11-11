@@ -15,7 +15,7 @@ const jetbrains = JetBrains_Mono({
 });
 
 export const metadata = {
-  title: "VAT Reader - Local AI Invoice Extraction for the Eurozone",
+  title: "ParseVAT - Local AI Invoice Extraction for the Eurozone",
   description:
     "Open-source, local-first AI invoice parsing for the Eurozone. 100% private, GDPR native, zero API costs.",
 };

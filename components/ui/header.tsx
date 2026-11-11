@@ -7,7 +7,7 @@ export default function Header() {
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4 sm:px-6">
         <div className="flex items-center gap-2">
           <Logo />
-          <span className="text-lg font-bold text-white">VAT Reader</span>
+          <span className="text-lg font-bold text-white">ParseVAT</span>
         </div>
         <nav className="hidden items-center gap-6 text-sm text-slate-300 md:flex">
           <a href="#features" className="transition hover:text-white">

@@ -33,12 +33,12 @@ export default function Cta() {
           Get your license key
         </h2>
         <p className="mx-auto mt-3 max-w-2xl text-slate-300">
-          VAT Reader runs on your own hardware. Request a subscription key to
+          ParseVAT runs on your own hardware. Request a subscription key to
           unlock the app and keep every invoice on your machine.
         </p>
         <div className="mx-auto mt-6 max-w-2xl rounded-lg border border-white/10 bg-slate-950 p-4 text-left">
           <code className="block font-mono text-sm text-emerald-300">
-            docker run -p 8080:8080 -e VAT_READER_LICENSE_KEY=your_key vatreader
+            docker run -p 8080:8080 -e VAT_READER_LICENSE_KEY=your_key parsevat
           </code>
         </div>
         <div className="mt-6 flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
@@ -54,7 +54,7 @@ export default function Cta() {
         <div className="mx-auto mt-8 max-w-md">
           {status === "success" ? (
             <p className="text-sm text-emerald-300">
-              Thanks! We&apos;ll be in touch when VAT Reader is ready.
+              Thanks! We&apos;ll be in touch when ParseVAT is ready.
             </p>
           ) : (
             <form

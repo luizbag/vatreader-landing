@@ -4,7 +4,7 @@ export default function Pricing() {
       <div className="mb-10 text-center">
         <h2 className="text-3xl font-bold text-white md:text-4xl">Pricing</h2>
         <p className="mt-3 text-slate-300">
-          Choose how you want to run VAT Reader — on your own hardware or fully
+          Choose how you want to run ParseVAT — on your own hardware or fully
           managed in the cloud.
         </p>
       </div>
@@ -13,7 +13,7 @@ export default function Pricing() {
           <h3 className="text-xl font-bold text-white">Self-hosted</h3>
           <p className="mt-1 text-sm text-slate-400">Small fee · License key</p>
           <p className="mt-4 text-slate-300">
-            Run VAT Reader on your own infrastructure. Full control, full
+            Run ParseVAT on your own infrastructure. Full control, full
             privacy, unlimited invoices.
           </p>
           <ul className="mt-4 space-y-2 text-sm text-slate-300">
@@ -33,7 +33,7 @@ export default function Pricing() {
           <h3 className="text-xl font-bold text-white">Cloud-hosted</h3>
           <p className="mt-1 text-sm text-slate-400">Managed · No infra</p>
           <p className="mt-4 text-slate-300">
-            We host and maintain VAT Reader for you. Just upload invoices — no
+            We host and maintain ParseVAT for you. Just upload invoices — no
             servers to manage.
           </p>
           <ul className="mt-4 space-y-2 text-sm text-slate-300">

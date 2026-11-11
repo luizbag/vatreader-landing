@@ -6,7 +6,7 @@ export default function Options() {
           Use it your way
         </h2>
         <p className="mt-4 text-lg text-gray-700">
-          Whether you live in the terminal or prefer a browser, VAT Reader
+          Whether you live in the terminal or prefer a browser, ParseVAT
           fits your workflow.
         </p>
       </div>
@@ -20,7 +20,7 @@ export default function Options() {
             export VAT reports straight from the terminal.
           </p>
           <code className="block rounded-lg bg-gray-900 px-4 py-3 font-mono text-sm text-gray-200">
-            vatreader extract ./invoices --out vat-report.csv
+            parsevat extract ./invoices --out vat-report.csv
           </code>
         </div>
         <div className="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm">

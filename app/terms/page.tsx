@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Terms of Service - VAT Reader",
-  description: "Terms of Service for VAT Reader.",
+  title: "Terms of Service - ParseVAT",
+  description: "Terms of Service for ParseVAT.",
 };
 
 export default function TermsPage() {
@@ -10,7 +10,7 @@ export default function TermsPage() {
         Terms of Service
       </h1>
       <p className="mb-4 text-gray-700">
-        VAT Reader is currently in early access. By using this site, you agree
+        ParseVAT is currently in early access. By using this site, you agree
         to use it only for lawful purposes and not to misuse the service.
       </p>
       <p className="text-gray-700">

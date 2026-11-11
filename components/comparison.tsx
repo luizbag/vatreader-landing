@@ -15,7 +15,7 @@ export default function Comparison() {
           Why Local-First?
         </h2>
         <p className="mt-3 text-slate-300">
-          VAT Reader vs. traditional cloud SaaS (Contabify, Dext, …)
+          ParseVAT vs. traditional cloud SaaS (Contabify, Dext, …)
         </p>
       </div>
       <div className="overflow-hidden rounded-2xl border border-white/10">
@@ -24,7 +24,7 @@ export default function Comparison() {
             <tr>
               <th className="px-4 py-3 font-semibold">Capability</th>
               <th className="px-4 py-3 font-semibold text-cyan-300">
-                VAT Reader
+                ParseVAT
               </th>
               <th className="px-4 py-3 font-semibold text-slate-400">
                 Cloud SaaS
