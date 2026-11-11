@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Sign Up - Simple",
+  title: "Sign Up - VAT Reader",
   description: "Page description",
 };
 
@@ -92,14 +92,14 @@ export default function SignUp() {
           By signing up, you agree to the{" "}
           <a
             className="whitespace-nowrap font-medium text-gray-700 underline hover:no-underline"
-            href="#0"
+            href="/terms"
           >
             Terms of Service
           </a>{" "}
           and{" "}
           <a
             className="whitespace-nowrap font-medium text-gray-700 underline hover:no-underline"
-            href="#0"
+            href="/privacy"
           >
             Privacy Policy
           </a>

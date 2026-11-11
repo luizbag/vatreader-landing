@@ -30,17 +30,15 @@ export default function LargeTestimonial() {
               />
             </div>
             <p className="text-2xl font-bold text-gray-900">
-              “Simple has simplified my life in more ways than one. From
-              managing my sites to{" "}
-              <em className="italic text-gray-500">keeping track of tasks</em>,
-              it's become my go-to tool for everything.”
+              “VAT Reader saved me hours every month. I just drop in my
+              invoices and it pulls out the VAT —{" "}
+              <em className="italic text-gray-500">no more manual entry</em>,
+              no more mistakes.”
             </p>
             <div className="text-sm font-medium text-gray-500">
-              <span className="text-gray-700">Mary Sullivan</span>{" "}
+              <span className="text-gray-700">Sarah Chen</span>{" "}
               <span className="text-gray-400">/</span>{" "}
-              <a className="text-blue-500" href="#0">
-                CTO at Microsoft
-              </a>
+              <span className="text-gray-700">Founder, Small Business</span>
             </div>
           </div>
         </div>
